@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="5sp"
+            android:text="Blood Group"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="50"
+        >
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_blood_drop1"
+            ></ImageView>
+        <TextView
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:id="@+id/textView1"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_user1"
+                ></ImageView>
+
+            <TextView
+                android:gravity="center"
+                android:text="TextView2"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/textView2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_call1"
+                ></ImageView>
+            <TextView
+                android:gravity="center"
+                android:text="TextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="15sp"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/textView2"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

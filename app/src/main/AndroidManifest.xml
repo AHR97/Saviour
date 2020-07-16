@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saviour">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Saviour"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ConfirmedFoodRequest"></activity>
+        <activity android:name=".ConfirmedClothRequest" />
+        <activity android:name=".ConfirmedBloodRequest" />
+        <activity android:name=".MyRequestedFood" />
+        <activity android:name=".MyRequestedCloth" />
+        <activity android:name=".MyRequestedBlood" />
+        <activity android:name=".MyRequestedEvent" />
+        <activity android:name=".MyRequestedMedical" />
+        <activity android:name=".MyDonatedFood" />
+        <activity android:name=".MyDonatedCloth" />
+        <activity android:name=".MyDonatedBlood" />
+        <activity android:name=".MyDonatedEvent" />
+        <activity android:name=".MyDonatedMedical" />
+        <activity android:name=".SendEventMoney" />
+        <activity android:name=".TransitionProgress"
+            android:theme="@style/NoActionBar"/>
+        <activity android:name=".SendMedicalMoney" />
+        <activity
+            android:name=".MyRequests"
+            android:parentActivityName=".UserProfile" />
+        <activity
+            android:name=".MyDonation"
+            android:parentActivityName=".UserProfile" />
+        <activity
+            android:name=".DonateOnEvent"
+            android:parentActivityName=".GiveAnEventDonation" />
+        <activity
+            android:name=".DonateMedical"
+            android:parentActivityName=".GiveAMedicalDonation" />
+        <activity
+            android:name=".DonateCloth"
+            android:parentActivityName=".GiveAClothDonation" />
+        <activity
+            android:name=".DonateFood"
+            android:parentActivityName=".GiveAFoodDonation" />
+        <activity
+            android:name=".DonateBlood"
+            android:parentActivityName=".GiveABloodDonation" />
+        <activity android:name=".EditYourProfile" />
+        <activity android:name=".AskForBlooodDonation" />
+        <activity android:name=".AskForClothdonation" />
+        <activity android:name=".AskForAFoodDonation" />
+        <activity android:name=".AskForEventDonation" />
+        <activity android:name=".AskForAMedicalDonation" />
+        <activity android:name=".AskForAMoneyDonation" />
+        <activity
+            android:name=".AskForADonation"
+            android:theme="@style/NoActionBarLight" />
+        <activity android:name=".GiveABloodDonation" />
+        <activity android:name=".GiveAClothDonation" />
+        <activity android:name=".GiveAFoodDonation" />
+        <activity android:name=".GiveAnEventDonation" />
+        <activity android:name=".GiveAMedicalDonation" />
+        <activity android:name=".GiveAMoneyDoantion" />
+        <activity
+            android:name=".GiveADonation"
+            android:theme="@style/NoActionBarLight" />
+        <activity
+            android:name=".FirstActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistrationActivity" />
+        <activity
+            android:name=".UserProfile"
+            android:theme="@style/NoActionBarLight" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/NoActionBarLight"/>
+    </application>
+
+</manifest>

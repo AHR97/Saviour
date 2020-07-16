@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AskForEventDonation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="35sp"
+        android:paddingVertical="20sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Enter Details"
+            android:textStyle="italic"
+            android:textSize="40sp"
+            android:textColor="@color/colorLightBlue"
+            android:layout_marginBottom="15sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="5sp"
+            android:text="Event Name"
+            android:layout_gravity="start"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            />
+        <EditText
+            android:id="@+id/askedEventName"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:background="@drawable/square_text_view"
+            android:inputType="text"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="5sp"
+            android:text="Event Details"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:textSize="22sp"
+            />
+        <EditText
+            android:id="@+id/askedEventDetails"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:background="@drawable/square_text_view"
+            android:inputType="text"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="5sp"
+            android:text="Contact Number"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:textSize="22sp"
+            />
+        <EditText
+            android:id="@+id/askedEventContactNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:background="@drawable/square_text_view"
+            android:inputType="number"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="5sp"
+            android:text="bKash Number"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:textSize="22sp"
+            />
+        <EditText
+            android:id="@+id/askedEventbKashNumber"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:background="@drawable/square_text_view"
+            android:inputType="number"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="5sp"
+            android:text="Total Amount"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:layout_gravity="start"
+            android:textSize="40sp"
+
+            />
+        <EditText
+            android:id="@+id/askedEventTotalAmount"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:background="@drawable/square_text_view"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="(BDT)"
+            android:textSize="30sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:indeterminateDrawable="@drawable/progressbar_background"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></ProgressBar>
+
+            <TextView
+                android:id="@+id/progressBarText"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/progressbar"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Sending Requests"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/event_button_ok"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_gravity="center_horizontal"
+            android:text="Ok"
+            android:textSize="22sp"
+            android:background="@drawable/green_square_button"
+            ></Button>
+
+        <Button
+            android:id="@+id/event_button_cancel"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/red_square_button"
+            android:text="Cancel"
+            android:textSize="22sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20sp"
+            />
+    </LinearLayout>
+</ScrollView>

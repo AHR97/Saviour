@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Saviour</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="delete_request">Are your sure you want\n to delete your request?</string>
+
+    <string name="req_medical">Ask donation for\nmedical patient</string>
+
+    <string name="req_event">Ask donation for\nothers event</string>
+
+    <string name="req_blood">Ask donation for\nblood</string>
+
+    <string name="req_cloth">Ask donation for\nclothes</string>
+
+    <string name="req_food">Ask donation for\nfood</string>
+
+    <string name="give_medical">Give donation to\nmedical patient</string>
+
+    <string name="give_event">Give donation for\nothers event</string>
+
+    <string name="give_blood">Give donation of\nblood</string>
+
+    <string name="give_cloth">Give donation of\nclothes</string>
+
+    <string name="give_food">GIve donation of\nfood</string>
+
+
+    <string-array name="Blood_group">
+        <item>Select Group</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="Cloths">
+        <item>Select Cloth Type</item>
+        <item>Winter</item>
+        <item>Normal</item>
+    </string-array>
+
+</resources>

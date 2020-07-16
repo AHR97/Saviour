@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    tools:context=".DonateOnEvent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginVertical="30sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/blue_squre_shape">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Requested By"
+                android:gravity="center"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:id="@+id/TextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15sp"
+                android:text="UserName"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_user1"
+                android:textSize="20sp"></TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/blue_squre_shape">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120sp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_weight="50">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Event Name"
+                    android:gravity="center"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_event"
+                    android:textSize="20sp"></TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120sp"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_weight="50">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Event's Details"
+                    android:gravity="center"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_disclaimer"
+                    android:textSize="18sp"></TextView>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="95sp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/blue_squre_shape">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_weight="50">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Amount"
+                    android:gravity="center"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_money2"
+                    android:textSize="24sp"></TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_weight="50">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Collected Amount"
+                    android:gravity="center"
+                    android:textSize="20sp"></TextView>
+
+                <TextView
+                    android:id="@+id/TextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_money2"
+                    android:textSize="24sp"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:orientation="vertical"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/blue_squre_shape">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Contact Number"
+                android:textSize="20sp">
+            </TextView>
+
+            <LinearLayout
+                android:layout_marginVertical="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="275sp"
+                    android:layout_height="40sp"
+                    android:id="@+id/TextView6"
+                    android:textSize="24sp"
+                    android:gravity="center"
+                    android:background="@drawable/blue_squre_shape"></TextView>
+
+                <ImageView
+                    android:layout_width="36sp"
+                    android:layout_height="36sp"
+                    android:src="@drawable/ic_call1"
+                    android:layout_marginStart="10sp"
+                    android:id="@+id/callImage"></ImageView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90sp"
+            android:orientation="vertical"
+            android:layout_marginTop="15sp"
+            android:background="@drawable/blue_squre_shape">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="bKAsh Number"
+                android:textSize="20sp">
+            </TextView>
+
+            <LinearLayout
+                android:layout_marginVertical="10sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="275sp"
+                    android:layout_height="40sp"
+                    android:id="@+id/TextView7"
+                    android:textSize="24sp"
+                    android:gravity="center"
+                    android:background="@drawable/blue_squre_shape"></TextView>
+
+                <ImageView
+                    android:layout_width="36sp"
+                    android:layout_height="36sp"
+                    android:src="@drawable/ic_receive"
+                    android:layout_marginStart="10sp"
+                    android:id="@+id/sendMoneyImage"></ImageView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/HomeButton"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="35sp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_house"></ImageView>
+    </LinearLayout>
+
+
+</ScrollView>

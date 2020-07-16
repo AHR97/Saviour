@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/charity"
+        android:layout_marginBottom="10sp"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginHorizontal="15sp"
+       android:paddingVertical="20sp"
+       android:paddingHorizontal="10sp"
+       android:background="@drawable/gradientbackground"
+       >
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:focusable="true"
+           android:focusableInTouchMode="true"
+           >
+
+           <EditText
+               android:id="@+id/loginEmail"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:drawableLeft="@drawable/ic_email"
+               android:drawablePadding="5sp"
+               android:hint="  Email"
+               android:inputType="text"
+               android:textSize="20sp" />
+       </com.google.android.material.textfield.TextInputLayout>
+
+       <com.google.android.material.textfield.TextInputLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:focusable="true"
+           android:layout_marginTop="15dp"
+           android:focusableInTouchMode="true">
+
+           <EditText
+               android:id="@+id/loginPassword"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:drawableLeft="@drawable/ic_padlock"
+               android:hint="  Password"
+               android:drawablePadding="5sp"
+               android:inputType="textPassword"
+               android:textSize="20sp" />
+       </com.google.android.material.textfield.TextInputLayout>
+
+
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center">
+           <ProgressBar
+               android:id="@+id/progressbar"
+               android:visibility="gone"
+               android:layout_gravity="center"
+               android:indeterminateDrawable="@drawable/progressbar_background"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"></ProgressBar>
+
+           <TextView
+               android:id="@+id/progressBarText"
+               android:visibility="gone"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignLeft="@+id/progressbar"
+               android:textColor="@color/colorPrimary"
+               android:textStyle="bold"
+               android:textSize="18sp"
+               android:text="Signing In"/>
+       </LinearLayout>
+
+
+       <Button
+           android:id="@+id/siginInButton"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Login"
+           android:layout_marginTop="20dp"
+           android:textSize="18sp"
+           android:textColor="@color/White"
+           android:textStyle="italic"
+           android:visibility="visible"
+           android:layout_marginHorizontal="56sp"
+           android:background="@drawable/rounded_button"/>
+
+
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="275sp"
+        android:layout_height="wrap_content"
+        android:text="Create A new Account"
+        android:layout_marginTop="100sp"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/White"
+        android:textStyle="italic"
+        android:background="@drawable/rounded_button"/>
+
+    
+
+</LinearLayout>

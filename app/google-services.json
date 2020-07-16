@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "741834179048",
+    "firebase_url": "https://saviour-3f050.firebaseio.com",
+    "project_id": "saviour-3f050",
+    "storage_bucket": "saviour-3f050.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741834179048:android:fa5d92028fa363d019a45d",
+        "android_client_info": {
+          "package_name": "com.example.saviour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741834179048-nm7vpksaj31gemf0pvqi752oosc5d20v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saviour",
+            "certificate_hash": "80e569026cd555f75b22e9a39d58e330ada24662"
+          }
+        },
+        {
+          "client_id": "741834179048-inaovme02ab417jc0bjj7r0tjm5e0ad4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKpg0twk1tkS5XZHPMJGOGH3ozF55UUZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741834179048-inaovme02ab417jc0bjj7r0tjm5e0ad4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
